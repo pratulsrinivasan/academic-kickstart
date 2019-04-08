@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   location = "New York, NY"
   date_start = "2018-06-01"
   date_end = ""
-  description = """Computer vision and graphics research. Hosted by [Professor Noah Snavely](http://www.cs.cornell.edu/~snavely/). Work publised at CVPR 2019."""
+  description = """Computer vision and graphics research. Hosted by [Professor Noah Snavely](http://www.cs.cornell.edu/~snavely/). Work published at CVPR 2019."""
   
 [[experience]]
   title = "Undergraduate Researcher"
