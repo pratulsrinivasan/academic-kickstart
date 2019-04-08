@@ -27,7 +27,7 @@ publication_short = "In *ICCV*"
 abstract = "2D spatial image windows are used for comparing pixel values in computer vision applications such as correspondence for optical flow and 3D reconstruction, bilateral filtering, and image segmentation. However, pixel window comparisons can suffer from varying defocus blur and perspective at different depths, and can also lead to a loss of precision. In this paper, we leverage the recent use of light-field cameras to propose alternative oriented lightfield windows that enable more robust and accurate pixel comparisons. For Lambertian surfaces focused to the correct depth, the 2D distribution of angular rays from a pixel remains consistent. We build on this idea to develop an oriented 4D light-field window that accounts for shearing (depth), translation (matching), and windowing. Our main application is to scene flow, a generalization of optical flow to the 3D vector field describing the motion of each point in the scene. We show significant benefits of oriented lightfield windows over standard 2D spatial windows. We also demonstrate additional applications of oriented light-field windows for bilateral filtering and image segmentation."
 
 # Summary. An optional shortened abstract.
-summary = "In *ICCV 2015*. 4D light field descriptors to compute better dense scene flow."
+summary = "*ICCV 2015*. 4D light field descriptors to compute better dense scene flow."
 
 # Is this a featured publication? (true/false)
 featured = false
