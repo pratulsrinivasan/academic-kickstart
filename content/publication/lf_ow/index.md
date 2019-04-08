@@ -15,6 +15,8 @@ authors = ["Pratul P. Srinivasan", "Michael W. Tao", "Ren Ng", "Ravi Ramamoorthi
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Thesis
+# 8 = Patent
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
@@ -24,10 +26,11 @@ publication_short = "In *ICCV*"
 # Abstract and optional shortened version.
 abstract = "2D spatial image windows are used for comparing pixel values in computer vision applications such as correspondence for optical flow and 3D reconstruction, bilateral filtering, and image segmentation. However, pixel window comparisons can suffer from varying defocus blur and perspective at different depths, and can also lead to a loss of precision. In this paper, we leverage the recent use of light-field cameras to propose alternative oriented lightfield windows that enable more robust and accurate pixel comparisons. For Lambertian surfaces focused to the correct depth, the 2D distribution of angular rays from a pixel remains consistent. We build on this idea to develop an oriented 4D light-field window that accounts for shearing (depth), translation (matching), and windowing. Our main application is to scene flow, a generalization of optical flow to the 3D vector field describing the motion of each point in the scene. We show significant benefits of oriented lightfield windows over standard 2D spatial windows. We also demonstrate additional applications of oriented light-field windows for bilateral filtering and image segmentation."
 
-abstract_short = "In *ICCV 2015*. 4D light field descriptors to compute better dense scene flow."
+# Summary. An optional shortened abstract.
+summary = "In *ICCV 2015*. 4D light field descriptors to compute better dense scene flow."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -54,7 +57,7 @@ url_video = "https://youtu.be/hENxM4lBVXo"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Journal Link", url = "https://ieeexplore.ieee.org/document/7452621"}, {name = "Journal Article PDF", url = "https://cseweb.ucsd.edu/~ravir/normals_PAMI.pdf"}, {name = "Conference Paper PDF", url = "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tao_Depth_From_Shading_2015_CVPR_paper.pdf"}]
+# links = [{name = "Journal Link", url = "https://ieeexplore.ieee.org/document/7452621"}, {name = "Journal Article PDF", url = "https://cseweb.ucsd.edu/~ravir/normals_PAMI.pdf"}, {name = "Conference Paper PDF", url = "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tao_Depth_From_Shading_2015_CVPR_paper.pdf"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
@@ -71,6 +74,7 @@ math = true
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  preview_only = true
   focal_point = "Center"
 +++
 
