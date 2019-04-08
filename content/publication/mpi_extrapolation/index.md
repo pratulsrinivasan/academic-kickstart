@@ -1,10 +1,10 @@
 +++
-title = "Aperture Supervision for Monocular Depth Estimation"
-date = 2018-06-01T00:00:00
+title = "Pushing the Boundaries of View Extrapolation with Multiplane Images"
+date = 2019-06-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Pratul P. Srinivasan", "Rahul Garg", "Neal Wadhwa", "Ren Ng", "Jonathan T. Barron"]
+authors = ["Pratul P. Srinivasan", "Richard Tucker", "Jonathan T. Barron", "Ravi Ramamoorthi", "Ren Ng", "Noah Snavely"]
 
 # Publication type.
 # Legend:
@@ -24,10 +24,10 @@ publication = "In *Conference on Computer Vision and Pattern Recognition (CVPR)*
 publication_short = "In *CVPR*"
 
 # Abstract and optional shortened version.
-abstract = "We present a novel method to train machine learning algorithms to estimate scene depths from a single image, by using the information provided by a camera’s aperture as supervision. Prior works use a depth sensor’s outputs or images of the same scene from alternate viewpoints as supervision, while our method instead uses images from the same viewpoint taken with a varying camera aperture. To enable learning algorithms to use aperture effects as supervision, we introduce two differentiable aperture rendering functions that use the input image and predicted depths to simulate the depth-of-field effects caused by real camera apertures. We train a monocular depth estimation network end-to-end to predict the scene depths that best explain these finite aperture images as defocus-blurred renderings of the input all-in-focus image."
+abstract = "We explore the problem of view synthesis from a narrow baseline pair of images, and focus on generating high-quality view extrapolations with plausible disocclusions. Our method builds upon prior work in predicting a multiplane image (MPI), which represents scene content as a set of RGB$\alpha$ planes within a reference view frustum and renders novel views by projecting this content into the target viewpoints. We present a theoretical analysis showing how the range of views that can be rendered from an MPI increases linearly with the MPI disparity sampling frequency, as well as a novel MPI prediction procedure that theoretically enables view extrapolations of up to $4\times$ the lateral viewpoint movement allowed by prior work. Our method ameliorates two specific issues that limit the range of views renderable by prior methods: 1) We expand the range of novel views that can be rendered without depth discretization artifacts by using a 3D convolutional network architecture along with a randomized-resolution training procedure to allow our model to predict MPIs with increased disparity sampling frequency. 2) We reduce the repeated texture artifacts seen in disocclusions by enforcing a constraint that the appearance of hidden content at any depth must be drawn from visible content at or behind that depth."
 
 # Summary. An optional shortened abstract.
-summary = "*CVPR 2018*. Defocus blur provides a supervisory signal for training deep networks to estimate depth from a single all-in-focus image."
+summary = "Oral presentation in *CVPR 2019*. Better view extrapolation with multiplane images by consider disparity sampling rate and 3D inpainting hidden stuff within network."
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -45,19 +45,19 @@ projects = []
 tags = []
 
 # Links (optional).
-# url_pdf = "https://people.eecs.berkeley.edu/~pratul/CVPR17_LF_BLIND_MOTION_DEBLURRING.pdf"
-# url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_code = "https://github.com/google/aperture_supervision"
-# url_dataset = "https://people.eecs.berkeley.edu/~pratul/deblur_data_results.zip"
+url_pdf = ""
+# url_preprint = ""
+# url_code = ""
+# url_dataset = ""
 # url_project = "#"
 # url_slides = "#"
-# url_video = "https://youtu.be/rtukre-ErmI"
+url_video = ""
 # url_poster = "#"
 # url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Paper on Arxiv", url = "https://arxiv.org/abs/1711.07933"}]
+links = [{name = "Paper on Arxiv", url = ""}]
 
 # Digital Object Identifier (DOI)
 doi = ""
