@@ -15,6 +15,8 @@ authors = ["Pratul P. Srinivasan", "Leo A. Kim", "Priyatham S. Mettu", "Scott W.
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Thesis
+# 8 = Patent
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
@@ -24,10 +26,11 @@ publication_short = "In *iomedical Optics Express*"
 # Abstract and optional shortened version.
 abstract = "We present a novel fully automated algorithm for the detection of retinal diseases via optical coherence tomography (OCT) imaging. Our algorithm utilizes multiscale histograms of oriented gradient descriptors as feature vectors of a support vector machine based classifier. The spectral domain OCT data sets used for cross-validation consisted of volumetric scans acquired from 45 subjects: 15 normal subjects, 15 patients with dry age-related macular degeneration (AMD), and 15 patients with diabetic macular edema (DME). Our classifier correctly identified 100% of cases with AMD, 100% cases with DME, and 86.67% cases of normal subjects. This algorithm is a potentially impactful tool for the remote diagnosis of ophthalmic diseases."
 
-abstract_short = "*Biomedical Optics Express 2014*. Classification algorithm to detect diseases from OCT images of the retina."
+# Summary. An optional shortened abstract.
+summary = "*Biomedical Optics Express 2014*. Classification algorithm to detect diseases from OCT images of the retina."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -54,7 +57,7 @@ url_dataset = "http://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Paper", url = "https://www.osapublishing.org/boe/abstract.cfm?uri=boe-5-10-3568"}]
+links = [{name = "Paper", url = "https://www.osapublishing.org/boe/abstract.cfm?uri=boe-5-10-3568"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
@@ -71,5 +74,6 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Center"
+  preview_only = true
 +++
 
