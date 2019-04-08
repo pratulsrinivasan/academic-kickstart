@@ -15,6 +15,8 @@ authors = ["Steven A. Cholewiak", "Gordon S. Love", "Pratul P. Srinivasan", "Ren
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Thesis
+# 8 = Patent
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
@@ -24,10 +26,11 @@ publication_short = "In *SIGGRAPH Asia*"
 # Abstract and optional shortened version.
 abstract = "Computer-graphics engineers and vision scientists want to generate images that reproduce realistic depth-dependent blur. Current rendering algorithms take into account scene geometry, aperture size, and focal distance, and they produce photorealistic imagery as with a high-quality camera. But to create immersive experiences, rendering algorithms should aim instead for perceptual realism. In so doing, they should take into account the significant optical aberrations of the human eye. We developed a method that, by incorporating some of those aberrations, yields displayed images that produce retinal images much closer to the ones that occur in natural viewing. In particular, we create displayed images taking the eye's chromatic aberration into account. This produces different chromatic effects in the retinal image for objects farther or nearer than current focus. We call the method ChromaBlur. We conducted two experiments that illustrate the benefits of ChromaBlur. One showed that accommodation (eye focusing) is driven quite effectively when ChromaBlur is used and that accommodation is not driven at all when conventional methods are used. The second showed that perceived depth and realism are greater with imagery created by ChromaBlur than in imagery created conventionally. ChromaBlur can be coupled with focus-adjustable lenses and gaze tracking to reproduce the natural relationship between accommodation and blur in HMDs and other immersive devices. It may thereby minimize the adverse effects of vergence-accommodation conflicts."
 
-abstract_short = "*SIGGRAPH Asia 2017*. Considering the eye's aberrations when rendering increases realism and helps drive accomodation in VR."
+# Summary. An optional shortened abstract.
+summary = "*SIGGRAPH Asia 2017*. Considering the eye's aberrations when rendering increases realism and helps drive accomodation in VR."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -54,7 +57,7 @@ url_video = "https://youtu.be/oGZgEmkmvvg"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Project Page", url = "http://bankslab.berkeley.edu/publications/chromablur/"}]
+links = [{name = "Project Page", url = "http://bankslab.berkeley.edu/publications/chromablur/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
@@ -71,5 +74,6 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Center"
+  preview_only = true
 +++
 
