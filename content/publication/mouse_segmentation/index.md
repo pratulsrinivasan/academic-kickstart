@@ -15,6 +15,8 @@ authors = ["Pratul P. Srinivasan", "Stephanie J. Heflin", "Joseph A. Izatt", "Va
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Thesis
+# 8 = Patent
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
@@ -24,10 +26,11 @@ publication_short = "In *Biomedical Optics Express*"
 # Abstract and optional shortened version.
 abstract = "Accurate quantification of retinal layer thicknesses in mice as seen on optical coherence tomography (OCT) is crucial for the study of numerous ocular and neurological diseases. However, manual segmentation is time-consuming and subjective. Previous attempts to automate this process were limited to high-quality scans from mice with no missing layers or visible pathology. This paper presents an automatic approach for segmenting retinal layers in spectral domain OCT images using sparsity based denoising, support vector machines, graph theory, and dynamic programming (S-GTDP). Results show that this method accurately segments all present retinal layer boundaries, which can range from seven to ten, in wild-type and rhodopsin knockout mice as compared to manual segmentation and has a more accurate performance as compared to the commercial automated Diver segmentation software."
 
-abstract_short = "*Biomedical Optics Express 2014*. Algorithm to segment retinal layers in OCT images, even when disease makes the shape funky."
+# Summary. An optional shortened abstract.
+summary = "*Biomedical Optics Express 2014*. Algorithm to segment retinal layers in OCT images, even when disease makes the shape funky."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -54,7 +57,7 @@ tags = []
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Paper", url = "https://www.osapublishing.org/boe/abstract.cfm?uri=boe-5-2-348"}]
+links = [{name = "Paper", url = "https://www.osapublishing.org/boe/abstract.cfm?uri=boe-5-2-348"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
@@ -70,5 +73,6 @@ math = true
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  preview_only = True
   focal_point = "Center"
 +++
