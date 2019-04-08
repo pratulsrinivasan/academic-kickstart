@@ -15,6 +15,8 @@ authors = ["Pratul P. Srinivasan", "Rahul Garg", "Neal Wadhwa", "Ren Ng", "Jonat
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Thesis
+# 8 = Patent
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
@@ -24,10 +26,11 @@ publication_short = "In *CVPR*"
 # Abstract and optional shortened version.
 abstract = "We present a novel method to train machine learning algorithms to estimate scene depths from a single image, by using the information provided by a camera’s aperture as supervision. Prior works use a depth sensor’s outputs or images of the same scene from alternate viewpoints as supervision, while our method instead uses images from the same viewpoint taken with a varying camera aperture. To enable learning algorithms to use aperture effects as supervision, we introduce two differentiable aperture rendering functions that use the input image and predicted depths to simulate the depth-of-field effects caused by real camera apertures. We train a monocular depth estimation network end-to-end to predict the scene depths that best explain these finite aperture images as defocus-blurred renderings of the input all-in-focus image."
 
-abstract_short = "*CVPR 2018*. Defocus blur provides a supervisory signal for training deep networks to estimate depth from a single all-in-focus image."
+# Summary. An optional shortened abstract.
+summary = "*CVPR 2018*. Defocus blur provides a supervisory signal for training deep networks to estimate depth from a single all-in-focus image."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -54,7 +57,7 @@ url_code = "https://github.com/google/aperture_supervision"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Paper on Arxiv", url = "https://arxiv.org/abs/1711.07933"}]
+links = [{name = "Paper on Arxiv", url = "https://arxiv.org/abs/1711.07933"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
@@ -71,5 +74,6 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Center"
+  preview_only = true
 +++
 
