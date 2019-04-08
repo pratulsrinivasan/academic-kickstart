@@ -73,6 +73,6 @@ math = true
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  preview_only = True
+  preview_only = true
   focal_point = "Center"
 +++
