@@ -45,5 +45,3 @@ interests = []
 #   link = "files/cv.pdf"
 
 +++
-
-[Ravi Ramamoorthi's Home Page](http://cseweb.ucsd.edu/~ravir/)
