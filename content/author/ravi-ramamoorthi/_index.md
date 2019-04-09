@@ -6,10 +6,10 @@ name = "Ravi Ramamoorthi"
 authors = ["ravi-ramamoorthi"]
 
 # Is this the primary user of the site?
-superuser = true
+superuser = false
 
 # Role/position
-role = "Professor of Computer Science at UC San Diego"
+role = ""
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -35,7 +35,10 @@ interests = []
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-
+[[social]]
+  icon = "home"
+  icon_pack = "fas"
+  link = "http://cseweb.ucsd.edu/~ravir/"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
