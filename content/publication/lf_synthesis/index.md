@@ -20,7 +20,7 @@ authors = ["Pratul P. Srinivasan", "Tongzhou Wang", "Ashwin Sreelal", "Ravi Rama
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *International Conference on Computer Vision (ICCV)*."
+publication = "In *International Conference on Computer Vision (ICCV)* (Spotlight Presentation)."
 publication_short = "In *ICCV*"
 
 # Abstract and optional shortened version.
@@ -78,4 +78,5 @@ math = true
   focal_point = "Center"
 +++
 
-
+## Overview and Results Video
+<iframe width="700" height="394" src="https://www.youtube.com/embed/yLCvWoQLnms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
