@@ -45,13 +45,13 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://people.eecs.berkeley.edu/~pratul/MPI_Extrapolation_Full.pdf"
 # url_preprint = ""
 # url_code = ""
 # url_dataset = ""
 # url_project = "#"
 # url_slides = "#"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=aJqAaMNL2m4"
 # url_poster = "#"
 # url_source = "#"
 
