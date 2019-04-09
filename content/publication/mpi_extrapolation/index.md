@@ -77,6 +77,6 @@ math = true
   preview_only = true
 +++
 
-# Results Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aJqAaMNL2m4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Results Video
+<iframe width="840" height="473" src="https://www.youtube.com/embed/aJqAaMNL2m4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
