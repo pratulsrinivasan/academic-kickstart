@@ -78,4 +78,4 @@ math = true
 +++
 
 ## Example Result
-![Example Result](content/publication/aperture_supervision/featured.png)
+![Example Result](publication/aperture_supervision/featured.png)
