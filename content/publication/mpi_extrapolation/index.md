@@ -20,7 +20,7 @@ authors = ["Pratul P. Srinivasan", "Richard Tucker", "Jonathan T. Barron", "Ravi
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Conference on Computer Vision and Pattern Recognition (CVPR)*."
+publication = "In *Conference on Computer Vision and Pattern Recognition (CVPR)* (Oral Presentation)."
 publication_short = "In *CVPR*"
 
 # Abstract and optional shortened version.
