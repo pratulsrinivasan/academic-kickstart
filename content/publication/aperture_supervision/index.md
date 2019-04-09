@@ -77,3 +77,5 @@ math = true
   preview_only = true
 +++
 
+## Example Result
+![Example Result](content/publication/aperture_supervision/featured.png)
