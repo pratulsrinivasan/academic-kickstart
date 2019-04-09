@@ -77,7 +77,8 @@ math = true
   focal_point = "Center"
 +++
 
-# Results Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hENxM4lBVXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Example Results
+![link](ow_results.png)
 
-testing another image: ![link](featured.png "test")
+## Applications Video
+<iframe width="700" height="394" src="https://www.youtube.com/embed/hENxM4lBVXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
