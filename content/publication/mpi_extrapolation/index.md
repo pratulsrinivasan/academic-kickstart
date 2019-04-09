@@ -45,7 +45,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "static/MPI_Extrapolation_Full.pdf"
+url_pdf = "../static/MPI_Extrapolation_Full.pdf"
 # url_preprint = ""
 # url_code = ""
 # url_dataset = ""
