@@ -9,7 +9,7 @@ authors = ["ravi-ramamoorthi"]
 superuser = false
 
 # Role/position
-role = ""
+role = "Professor of Computer Science at UC San Diego"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
