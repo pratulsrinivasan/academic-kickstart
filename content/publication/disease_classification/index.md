@@ -78,4 +78,4 @@ math = true
 +++
 
 ## Example OCT Scans for Different Diseases
-![Example Scans](oct_examples.png)
+![Example Scans](https://raw.githubusercontent.com/pratulsrinivasan/academic-kickstart/master/content/publication/disease_classification/oct_examples.png)
