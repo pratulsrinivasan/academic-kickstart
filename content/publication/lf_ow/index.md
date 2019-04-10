@@ -78,7 +78,7 @@ math = true
 +++
 
 ## Example Results
-![link](ow_results.png)
+![link](https://raw.githubusercontent.com/pratulsrinivasan/academic-kickstart/master/content/publication/lf_ow/ow_results.png)
 
 ## Applications Video
 <iframe width="700" height="394" src="https://www.youtube.com/embed/hENxM4lBVXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
