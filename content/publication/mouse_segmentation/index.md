@@ -78,4 +78,4 @@ math = true
 +++
 
 ## Example Results
-![Example Results](mouse_seg.png)
+![Example Results](https://raw.githubusercontent.com/pratulsrinivasan/academic-kickstart/master/content/publication/mouse_segmentation/mouse_seg.png)
