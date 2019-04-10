@@ -78,4 +78,4 @@ math = true
 +++
 
 ## Example Results
-![Example Results](depth_results.png)
+![Example Results](https://raw.githubusercontent.com/pratulsrinivasan/academic-kickstart/master/content/publication/lf_depth/depth_results.png)
