@@ -1,6 +1,6 @@
 +++
 title = "Pushing the Boundaries of View Extrapolation with Multiplane Images"
-date = 2019-06-01T00:00:00
+date = 2019
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
