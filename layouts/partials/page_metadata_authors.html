@@ -1,3 +1,4 @@
+
 {{/* If `authors` is set and is not empty. */}}
 {{ if $.Params.authors }}
 {{ $authorLen := len $.Params.authors }}
@@ -11,9 +12,9 @@
       {{ $person_page := $.Site.GetPage $person_page_path }}
       {{ if $person_page }}
         {{ $person := $person_page.Params }}
-        {{- printf "<a href=\"https://people.eecs.berkeley.edu/~pratul/\">Test</a>" | safeHTML -}}
+        {{- printf "<a href=\"%s\">%s</a>" $link $person.name | safeHTML -}}
       {{- else -}}
-                {{- printf "<a href=\"https://people.eecs.berkeley.edu/~pratul/\"Test</a>" | safeHTML -}}
+                {{- printf "<a href=\"%s\">%s</a>" $link ($v | markdownify) | safeHTML -}}
       {{- end -}}
       </span>{{- /* This comment removes whitespace */ -}}
     </span>
