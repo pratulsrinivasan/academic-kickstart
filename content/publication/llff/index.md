@@ -1,6 +1,6 @@
 +++
 title = "Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines"
-date = 2019
+date = 2018
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
