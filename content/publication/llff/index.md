@@ -4,7 +4,7 @@ date = 2019-02-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["admin", "Richard Tucker", "jonathan-t.-barron", "ravi-ramamoorthi", "ren-ng", "noah-snavely"]
+authors = ["ben-mildenhall", "admin", "rodrigo-cayon", "nima-kalantari", "ravi-ramamoorthi", "ren-ng", "abhishek-kar"]
 
 # Publication type.
 # Legend:
@@ -27,7 +27,7 @@ publication_short = "In *SIGGRAPH*"
 abstract = "We present a practical and robust deep learning solution for capturing and rendering novel views of complex real world scenes for virtual exploration. Previous approaches either require intractably dense view sampling or provide little to no guidance for how users should sample views of a scene to reliably render high-quality novel views. Instead, we propose an algorithm for view synthesis from an irregular grid of sampled views that first expands each sampled view into a local light field via a multiplane image (MPI) scene representation, then renders novel views by blending adjacent local light fields. We extend traditional plenoptic sampling theory to derive a bound that specifies precisely how densely users should sample views of a given scene when using our algorithm. In practice, we apply this bound to capture and render views of real world scenes that achieve the perceptual quality of Nyquist rate view sampling while using up to 4000x fewer views. We demonstrate our approach's practicality with an augmented reality smartphone app that guides users to capture input images of a scene and viewers that enable realtime virtual exploration on desktop and mobile platforms."
 
 # Summary. An optional shortened abstract.
-summary = "In *SIGGRAPH 2019*. Theory and algorithm for rendering new views of complex scenes."
+summary = "In *SIGGRAPH 2019*. Light field theory and algorithm for rendering new views of complex scenes."
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -45,13 +45,13 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+# url_pdf = ""
 # url_preprint = ""
-# url_code = ""
+url_code = "https://github.com/Fyusion/LLFF"
 # url_dataset = ""
-# url_project = "#"
+url_project = "http://people.eecs.berkeley.edu/~bmild/llff/index.html"
 # url_slides = "#"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=LY6MgDUzS3M&feature=youtu.be"
 # url_poster = "#"
 # url_source = "#"
 
