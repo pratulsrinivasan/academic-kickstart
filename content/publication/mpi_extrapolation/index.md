@@ -57,7 +57,7 @@ url_video = "https://www.youtube.com/watch?v=aJqAaMNL2m4"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Paper on Arxiv", url = ""}]
+links = [{name = "Arxiv", url = "https://arxiv.org/abs/1905.00413"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
