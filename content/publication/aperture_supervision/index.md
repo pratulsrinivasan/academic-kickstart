@@ -57,7 +57,7 @@ url_code = "https://github.com/google/aperture_supervision"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Paper on Arxiv", url = "https://arxiv.org/abs/1711.07933"}]
+links = [{name = "Arxiv", url = "https://arxiv.org/abs/1711.07933"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
