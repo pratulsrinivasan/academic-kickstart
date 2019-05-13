@@ -49,7 +49,7 @@ url_pdf = "http://bankslab.berkeley.edu/publications/Files/chromablur_rendering_
 # url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 # url_code = "https://github.com/pratulsrinivasan/Light_Field_Blind_Motion_Deblurring"
 # url_dataset = "https://people.eecs.berkeley.edu/~pratul/deblur_data_results.zip"
-# url_project = "#"
+url_project = "http://bankslab.berkeley.edu/publications/chromablur/"
 # url_slides = "#"
 url_video = "https://youtu.be/oGZgEmkmvvg"
 # url_poster = "#"
@@ -57,7 +57,7 @@ url_video = "https://youtu.be/oGZgEmkmvvg"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Project Page", url = "http://bankslab.berkeley.edu/publications/chromablur/"}]
+# links = [{name = "Project Page", url = "http://bankslab.berkeley.edu/publications/chromablur/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
