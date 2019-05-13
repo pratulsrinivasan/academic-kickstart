@@ -3,7 +3,7 @@
 name = "Ben Mildenhall"
 
 # Username (this should match the folder name)
-authors = ["ben-mildenhall"]
+authors = ["ben-mildenhall*"]
 
 # Is this the primary user of the site?
 superuser = false
