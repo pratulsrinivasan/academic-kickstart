@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   location = "Berkeley, CA"
   date_start = "2014-09-01"
   date_end = ""
-  description = """Research at the intersection of computer vision, computer graphics, and deep learning. Advised by [Professor Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html) and [Professor Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)."""
+  description = """Research at the intersection of computer vision, computer graphics, and deep learning. Advised by [Professor Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html) and [Professor Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/). Awarded NSF GRFP, NDSEG (declined), Dept. of Education GAANN fellowships."""
   
 [[experience]]
   title = "Student Researcher"
