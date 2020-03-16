@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   location = "New York, NY"
   date_start = "2018-06-01"
   date_end = "2019-12-01"
-  description = """Computer vision and graphics research. Hosted by [Professor Noah Snavely](http://www.cs.cornell.edu/~snavely/). Work published at CVPR 2019."""
+  description = """Computer vision and graphics research. Hosted by [Professor Noah Snavely](http://www.cs.cornell.edu/~snavely/). Internship projects published at CVPR 2019 and CVPR 2020."""
   
 [[experience]]
   title = "Undergraduate Researcher"
@@ -52,6 +52,6 @@ date_format = "Jan 2006"
   location = "Mountain View, CA"
   date_start = "2017-05-01"
   date_end = "2017-11-01"
-  description = """Computer vision and computational photography research in [Marc Levoy's](http://graphics.stanford.edu/~levoy/) team, hosted by [Jon Barron](https://jonbarron.info/). Work published at CVPR 2018."""
+  description = """Computer vision and computational photography research in [Marc Levoy's](http://graphics.stanford.edu/~levoy/) team, hosted by [Jon Barron](https://jonbarron.info/). Intenship project published at CVPR 2018."""
 
 +++
