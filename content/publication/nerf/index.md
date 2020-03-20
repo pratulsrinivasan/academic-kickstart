@@ -47,7 +47,7 @@ tags = []
 # Links (optional).
 # url_pdf = ""
 # url_preprint = ""
-url_code = ""
+url_code = "https://github.com/bmild/nerf"
 # url_dataset = ""
 url_project = "http://www.matthewtancik.com/nerf"
 # url_slides = "#"
@@ -57,7 +57,7 @@ url_video = "youtube.com/watch?v=JuH79E8rdKc"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Arxiv", url = ""}]
+links = [{name = "Arxiv", url = "https://arxiv.org/abs/2003.08934"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
