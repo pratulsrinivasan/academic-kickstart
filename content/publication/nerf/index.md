@@ -3,8 +3,6 @@ title = "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis"
 date = 2020-03-01T00:00:00
 draft = false
 
-external_link = "http://www.matthewtancik.com/nerf"
-
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["ben-mildenhall-co", "pratul-srinivasan-co", "matthew-tancik-co", "jonathan-t.-barron", "ravi-ramamoorthi", "ren-ng", "*: co-first authors"]
 
