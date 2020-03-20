@@ -51,7 +51,7 @@ url_code = "https://github.com/bmild/nerf"
 # url_dataset = ""
 url_project = "http://www.matthewtancik.com/nerf"
 # url_slides = "#"
-url_video = "youtube.com/watch?v=JuH79E8rdKc"
+url_video = "https://youtube.com/watch?v=JuH79E8rdKc"
 # url_poster = "#"
 # url_source = "#"
 
